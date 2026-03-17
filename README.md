@@ -38,18 +38,41 @@ docs/
   compaction-recovery.md — How your agent recovers from context resets
 ```
 
-## Full version
+## What happens after week 3
 
-The paid version adds structured knowledge tracking, auto-maintenance, and a visual knowledge graph:
+This starter kit works immediately. But after a few weeks of real use, you'll notice:
 
-- **$19 Standard** — Memory vault with schemas, auto-reindex, auto-archive, validation scripts, hypothesis + strategy tracking
-- **$39 Pro** — Everything standard + interactive knowledge graph, typed relationship queries, autonomous goal trees
+- **Daily logs pile up.** 20+ files with no automatic cleanup.
+- **MEMORY.md gets bloated.** No structure to separate facts from guesses from decisions.
+- **Old context gets buried.** You told your agent something important 2 weeks ago — good luck finding it.
+- **No way to track what's proven vs. what's a hunch.** Your agent treats a tested strategy the same as a shower thought.
 
-Coming soon.
+This is the natural ceiling of flat-file memory. It works, but it doesn't scale.
+
+## AgentBrain Standard ($19) — Memory that doesn't rot
+
+Everything in the starter kit, plus the infrastructure to keep it clean as it grows:
+
+- **Auto-archive** — Daily logs older than 30 days move to cold storage automatically
+- **Auto-reindex** — Full-text search across your entire memory vault, updated every 60 seconds
+- **Frontmatter validation** — Weekly checks that your structured files have required fields and aren't going stale
+- **Hypothesis tracking** — Structured templates with confidence levels, evidence chains, and review dates. Your agent knows the difference between "I think" and "I tested"
+- **Strategy log** — Living playbooks with version history. Track what you tried, what worked, and why.
+- **Setup wizard** — One script configures everything. Crons, search index, folder structure, validation.
+
+## AgentBrain Pro ($39) — Memory that thinks
+
+Everything in Standard, plus:
+
+- **Interactive knowledge graph** — Browser-based visualization of every concept, decision, and connection in your vault. See how ideas relate across domains.
+- **Typed relationship queries** — "What depends on this hypothesis?" "What strategies use this assumption?" Traverse your knowledge like a database.
+- **Autonomous goal trees** — Decision trees your agent walks every heartbeat. Green actions happen automatically. Yellow actions happen and notify you. Red actions wait for approval. Your agent works while you sleep.
+
+Coming soon → [link]
 
 ---
 
-Built for OpenClaw. Works best with local agents using file-based memory.
+Built for [OpenClaw](https://github.com/openclaw/openclaw). Works with any agent using file-based memory.
 
 No coding. No setup beyond 2 minutes.
 
