@@ -6,19 +6,7 @@
   <strong>Your AI forgets everything every session. Fix that.</strong>
 </p>
 
-<p align="center">
-  <a href="#install">Install</a> •
-  <a href="#how-it-works">How It Works</a> •
-  <a href="#whats-included">What's Included</a> •
-  <a href="#after-week-3">After Week 3</a> •
-  <a href="#upgrade">Upgrade</a>
-</p>
-
 ---
-
-## The Problem
-
-Every AI agent starts from zero every session. You re-explain your name, your projects, your preferences. Context gets wiped. Decisions get lost. Your agent has amnesia.
 
 **Monday:**
 > "I think SOL will rally Q3 based on ETF inflows. Track this at 65% confidence."
@@ -28,28 +16,26 @@ Every AI agent starts from zero every session. You re-explain your name, your pr
 > → *"I don't have any information about previous conversations..."*
 
 **With AgentBrain:**
-> "What's our current thinking on SOL?"
 > → *"You have an open hypothesis: SOL Q3 rally, 65% confidence, based on ETF inflows. No new evidence since Monday. Want me to check for updates?"*
 
 **That's not context. That's memory.**
 
 ---
 
-## Install
-
-2 minutes. No coding.
+## Install (2 minutes)
 
 ```bash
 git clone https://github.com/YOURUSER/agentbrain-starter.git
 cp agentbrain-starter/templates/* ~/.openclaw/workspace/
 ```
 
-Then:
 1. Edit `SOUL.md` — give your agent a name and personality
 2. Edit `USER.md` — tell it who you are and what you're building
 3. Tell your agent: **"Read AGENTS.md — you have a new memory system."**
 
-Done.
+**In 2 minutes**, your agent stops starting from zero. It knows who it is, who you are, and what you were working on.
+
+**Over time**, memory compounds. Decisions persist. Context builds. Your agent gets sharper the longer you use it.
 
 ---
 
@@ -112,51 +98,20 @@ Every file has fill-in-the-bracket prompts. Edit, save, done.
 
 ---
 
-## What to Expect
+## What Happens After Week 3
 
-**Day 1:** Your agent introduces itself by name. Remembers your timezone. Picks up your goals.
+This starter kit works immediately. But after a few weeks, you'll hit the natural ceiling of flat-file memory:
 
-**Week 1:** Your agent references yesterday's conversation without you repeating anything. Decisions persist.
+- Daily logs pile up with no automatic cleanup
+- MEMORY.md gets bloated — no structure to separate facts from guesses
+- Old context gets buried and hard to find
+- No way to track what's been tested vs. what's still a hunch
 
-**Week 2:** You stop noticing it — which is the point. Memory just works.
+When you hit that wall, **AgentBrain Standard** ($19) adds auto-archive, full-text search, frontmatter validation, and structured hypothesis tracking — everything you need to keep memory clean as it grows.
 
----
+**AgentBrain Pro** ($39) adds an interactive knowledge graph, typed relationship queries, and autonomous goal trees — your agent works while you sleep.
 
-## After Week 3
-
-This starter kit works immediately. But after a few weeks of real use, you'll hit the ceiling:
-
-- **Daily logs pile up.** 20+ files with no automatic cleanup.
-- **MEMORY.md gets bloated.** No structure to separate facts from guesses from decisions.
-- **Old context gets buried.** You told your agent something important 2 weeks ago — good luck finding it.
-- **No way to track what's proven vs. what's a hunch.** Your agent treats a tested strategy the same as a shower thought.
-
-This is the natural limit of flat-file memory. It works, but it doesn't scale.
-
----
-
-## Upgrade
-
-### 🧠 AgentBrain Standard — $19
-
-Memory that doesn't rot. Everything in the starter kit, plus:
-
-- **Auto-archive** — Daily logs older than 30 days move to cold storage automatically
-- **Auto-reindex** — Full-text search across your entire memory vault, refreshed every 60 seconds
-- **Frontmatter validation** — Weekly checks that structured files aren't going stale
-- **Hypothesis tracking** — Templates with confidence levels, evidence chains, and review dates. Your agent knows the difference between "I think" and "I tested"
-- **Strategy log** — Living playbooks with version history
-- **Setup wizard** — One script configures everything
-
-### 🔮 AgentBrain Pro — $39
-
-Memory that thinks. Everything in Standard, plus:
-
-- **Interactive knowledge graph** — Browser-based visualization of every concept, decision, and connection in your vault
-- **Typed relationship queries** — "What depends on this hypothesis?" "What strategies use this assumption?"
-- **Autonomous goal trees** — Decision trees your agent walks every cycle. Green = autonomous. Yellow = do and notify. Red = ask first. **Your agent works while you sleep.**
-
-Coming soon → [join the waitlist](#)
+Coming soon.
 
 ---
 
@@ -171,11 +126,11 @@ No. Edit markdown files. That's it.
 **What model does it work with?**
 Any. Claude, GPT-4, Gemini, Llama — if it can read a file, it works.
 
-**How is this different from custom instructions / system prompts?**
-Custom instructions are static. AgentBrain files are dynamic — your agent updates them during sessions, so they compound over time instead of going stale.
+**How is this different from custom instructions?**
+Custom instructions are static. AgentBrain files are dynamic — your agent updates them during sessions, so memory compounds over time instead of going stale.
 
 ---
 
 <p align="center">
-  Built by an AI agent that uses this system in production, every day.
+  Built from the same memory system our AI agent relies on daily.
 </p>
