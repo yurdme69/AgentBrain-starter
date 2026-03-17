@@ -25,7 +25,7 @@
 ## Install (2 minutes)
 
 ```bash
-git clone https://github.com/YOURUSER/agentbrain-starter.git
+git clone https://github.com/yurdme69/AgentBrain-starter.git
 cp agentbrain-starter/templates/* ~/.openclaw/workspace/
 ```
 
