@@ -1,41 +1,46 @@
 <p align="center">
-  <img src="assets/banner.png" alt="AgentBrain — Persistent memory for AI agents" width="100%">
+  <img src="assets/banner.png" alt="AgentBrain" width="100%">
+</p>
+
+<h3 align="center">Your AI forgets everything. Fix that.</h3>
+
+<p align="center">
+  Give your AI agent permanent memory that compounds across every session.
 </p>
 
 <p align="center">
-  <strong>Your AI forgets everything every session. Fix that.</strong>
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#how-it-works">How It Works</a> •
+  <a href="#whats-included">What's Included</a> •
+  <a href="#upgrade">Upgrade</a>
 </p>
 
 ---
 
-**Monday:**
-> "I think SOL will rally Q3 based on ETF inflows. Track this at 65% confidence."
+<p align="center">
+  <img src="assets/proof-moment.png" alt="Agent recalling a hypothesis from a previous session" width="680">
+</p>
 
-**Wednesday** *(new session, context wiped):*
-> "What's our current thinking on SOL?"
-> → *"I don't have any information about previous conversations..."*
-
-**With AgentBrain:**
-> → *"You have an open hypothesis: SOL Q3 rally, 65% confidence, based on ETF inflows. No new evidence since Monday. Want me to check for updates?"*
-
-**That's not context. That's memory.**
+<p align="center"><em>Session 47. The agent remembers a hypothesis from Monday — confidence level, evidence, next review date. No re-explaining needed.</em></p>
 
 ---
 
-## Install (2 minutes)
+## Quick Start
+
+**2 minutes. No coding.**
 
 ```bash
 git clone https://github.com/yurdme69/AgentBrain-starter.git
-cp agentbrain-starter/templates/* ~/.openclaw/workspace/
+cp AgentBrain-starter/templates/* ~/.openclaw/workspace/
 ```
 
 1. Edit `SOUL.md` — give your agent a name and personality
 2. Edit `USER.md` — tell it who you are and what you're building
 3. Tell your agent: **"Read AGENTS.md — you have a new memory system."**
 
-**In 2 minutes**, your agent stops starting from zero. It knows who it is, who you are, and what you were working on.
+**Your agent now remembers across sessions.** It knows who it is, who you are, and what you were working on — every time it starts up.
 
-**Over time**, memory compounds. Decisions persist. Context builds. Your agent gets sharper the longer you use it.
+Over time, memory compounds. Decisions persist. Context builds. Your agent gets sharper the longer you use it.
 
 ---
 
@@ -118,7 +123,7 @@ Coming soon.
 ## FAQ
 
 **Does this only work with OpenClaw?**
-Built for OpenClaw, but the architecture works with any agent that reads files from a workspace directory.
+Built for OpenClaw, but works with any agent that reads files from a workspace directory.
 
 **Do I need to code anything?**
 No. Edit markdown files. That's it.
@@ -127,7 +132,7 @@ No. Edit markdown files. That's it.
 Any. Claude, GPT-4, Gemini, Llama — if it can read a file, it works.
 
 **How is this different from custom instructions?**
-Custom instructions are static. AgentBrain files are dynamic — your agent updates them during sessions, so memory compounds over time instead of going stale.
+Custom instructions are static. AgentBrain files are dynamic — your agent updates them during sessions, so memory compounds instead of going stale.
 
 ---
 
